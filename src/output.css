@@ -363,6 +363,21 @@
   .bg-\[url\(\'\/src\/images\/modern\.jpg\'\)\] {
     background-image: url('/src/images/modern.jpg');
   }
+  .bg-\[url\(\.\/images\/rectangle\.jpg\)\] {
+    background-image: url(./images/rectangle.jpg);
+  }
+  .bg-\[url\(\/\/images\/rectangle\.jpg\)\] {
+    background-image: url(//images/rectangle.jpg);
+  }
+  .bg-\[url\(\/images\/rectangle\.jpg\)\] {
+    background-image: url(/images/rectangle.jpg);
+  }
+  .bg-\[url\(\/s\/images\/rectangle\.jpg\)\] {
+    background-image: url(/s/images/rectangle.jpg);
+  }
+  .bg-\[url\(\/sr\/images\/rectangle\.jpg\)\] {
+    background-image: url(/sr/images/rectangle.jpg);
+  }
   .bg-\[url\(\/src\/images\/rectangle\.jpg\)\] {
     background-image: url(/src/images/rectangle.jpg);
   }
